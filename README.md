@@ -28,3 +28,34 @@ Operation                Sequential (ms)  Parallel FS (ms)  Parallel No-FS (ms)
 ---------------------------------------------------------------------------------
 Execution Time                   3587.00          4001.00             2144.00
 ```
+
+## How to Compile and Run the Code
+
+1. **Install a C++ Compiler:**
+   - If you're using Linux or macOS, you can install `g++` by running:
+     ```bash
+     sudo apt install g++
+     ```
+   - On Windows, you can use MinGW or Microsoft Visual Studio.
+
+2. **Clone the repository:**
+   If you haven't cloned the repository yet, do so by running:
+   ```bash
+   git clone https://github.com/LyudmilaKostanyan/False-Sharing.git
+   cd False-Sharing
+   ```
+
+3. **Build the project:**
+   Once you're in the project directory, compile the code with:
+   ```bash
+   cmake -S . -B build
+   cmake --build build --config Release
+   ```
+
+4. **Run the compiled executable:**
+   After compiling, you can run the program:
+   ```bash
+   cd build
+   ./main
+   ```
+
