@@ -1,4 +1,4 @@
-# False Sharing Project
+# False Sharing
 
 ## Description
 
