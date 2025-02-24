@@ -28,3 +28,15 @@ Operation                Sequential (ms)  Parallel FS (ms)  Parallel No-FS (ms)
 ---------------------------------------------------------------------------------
 Execution Time                   3587.00          4001.00             2144.00
 ```
+
+## How to Compile and Run the Code
+
+՝՝՝
+git clone https://github.com/LyudmilaKostanyan/False-Sharing
+
+cd False-Sharing
+
+cmake -S . -B build
+
+cmake --build build --config Release
+՝՝՝
